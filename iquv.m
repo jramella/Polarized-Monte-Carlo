@@ -1,4 +1,7 @@
-%N=1e7
+% Code requires Matscat
+% https://www.mathworks.com/matlabcentral/fileexchange/36831-matscat
+% Results from C code
+% N=1e7
 % launch H
 % R= 0.10749	 0.01217	 -0.00036	 0.00007
 %  T= 0.89251	 0.82256	 -0.00013	 0.00011
@@ -12,6 +15,7 @@
 % R= 0.10727	 -0.00003	 0.00006	 0.06896
 %  T= 0.89273	 0.00002	 0.00005	 0.86585
 
+
 format long
 THRESHOLD  =0.01
 CHANCE     =0.1
@@ -24,7 +28,7 @@ radius  	= 2.03/2; % microns */
 lambda 		= 0.6328; % microns */
 rho 		= 1.152e-4;%Dilution 1*/
 Nphotons	= 1e6;
-mua 		= 0.0; %µa  */
+mua 		= 0.0; %Âµa  */
 
 % ------------------------*/
 nre_p   	= 1.59;
